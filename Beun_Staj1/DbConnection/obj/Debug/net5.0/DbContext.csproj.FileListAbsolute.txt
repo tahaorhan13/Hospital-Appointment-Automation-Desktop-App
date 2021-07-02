@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\DbContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\DbContext.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\DbContext.AssemblyInfo.cs
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\DbContext.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\bin\Debug\net5.0\DbContext.deps.json
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\bin\Debug\net5.0\DbContext.dll
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\bin\Debug\net5.0\ref\DbContext.dll
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\bin\Debug\net5.0\DbContext.pdb
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\DbContext.dll
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\ref\DbContext.dll
+C:\Users\hp\Desktop\Beun_Staj1\DbConnection\obj\Debug\net5.0\DbContext.pdb

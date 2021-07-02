@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7623E807-DE89-4C7D-A8AC-FE5AC769B00E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hastane_Randevu_Projesi</RootNamespace>
+    <AssemblyName>Hastane_Randevu_Projesi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\packages\Serilog.2.10.0\lib\net46\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.2\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbConnection.cs" />
+    <Compile Include="Forms\Worker\ArrangingAppointmentTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\ArrangingAppointmentTime.Designer.cs">
+      <DependentUpon>ArrangingAppointmentTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\Branch\AddBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\Branch\AddBranch.Designer.cs">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\Branch\DeleteBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\Branch\DeleteBranch.Designer.cs">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\Branch\UpdateBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\Branch\UpdateBranch.Designer.cs">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\Doctor\AddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\Doctor\AddDoctor.Designer.cs">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientAppointmentScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientAppointmentScreen.Designer.cs">
+      <DependentUpon>PatientAppointmentScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientLogin.Designer.cs">
+      <DependentUpon>PatientLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Patient\OldAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Patient\OldAppointment.Designer.cs">
+      <DependentUpon>OldAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientInformationUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientInformationUpdate.Designer.cs">
+      <DependentUpon>PatientInformationUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientPanel.Designer.cs">
+      <DependentUpon>PatientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Patient\PatientRegister.Designer.cs">
+      <DependentUpon>PatientRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\Doctor\DeleteDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\Doctor\DeleteDoctor.Designer.cs">
+      <DependentUpon>DeleteDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\Doctor\UpdateDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\Doctor\UpdateDoctor.Designer.cs">
+      <DependentUpon>UpdateDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerInformationUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerInformationUpdate.Designer.cs">
+      <DependentUpon>WorkerInformationUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerLogin.Designer.cs">
+      <DependentUpon>WorkerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerPanel.Designer.cs">
+      <DependentUpon>WorkerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Worker\WorkerRegister.Designer.cs">
+      <DependentUpon>WorkerRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Worker\ArrangingAppointmentTime.resx">
+      <DependentUpon>ArrangingAppointmentTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\Branch\AddBranch.resx">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\Branch\DeleteBranch.resx">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\Branch\UpdateBranch.resx">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\Doctor\AddDoctor.resx">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Patient\PatientAppointmentScreen.resx">
+      <DependentUpon>PatientAppointmentScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Patient\PatientLogin.resx">
+      <DependentUpon>PatientLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Patient\OldAppointment.resx">
+      <DependentUpon>OldAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Patient\PatientInformationUpdate.resx">
+      <DependentUpon>PatientInformationUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Patient\PatientPanel.resx">
+      <DependentUpon>PatientPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Patient\PatientRegister.resx">
+      <DependentUpon>PatientRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\Doctor\DeleteDoctor.resx">
+      <DependentUpon>DeleteDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\Doctor\UpdateDoctor.resx">
+      <DependentUpon>UpdateDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\WorkerInformationUpdate.resx">
+      <DependentUpon>WorkerInformationUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\WorkerLogin.resx">
+      <DependentUpon>WorkerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\WorkerPanel.resx">
+      <DependentUpon>WorkerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Worker\WorkerRegister.resx">
+      <DependentUpon>WorkerRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

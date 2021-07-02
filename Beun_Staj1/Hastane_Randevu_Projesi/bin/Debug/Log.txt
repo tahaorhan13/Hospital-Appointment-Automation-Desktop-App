@@ -1,0 +1,28 @@
+
+10:01:40 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+10:02:23 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+10:55:53 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:14:44 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:14:52 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:37:58 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:38:04 30 Haziran 2021 Çarşamba
+  Randevu İptal Etti
+------------------------------------
+11:38:24 30 Haziran 2021 Çarşamba
+selin ak Doktor Ekledi
+------------------------------------
+11:38:35 30 Haziran 2021 Çarşamba
+Null  Null  Saatte düzenleme yaptı
+------------------------------------
