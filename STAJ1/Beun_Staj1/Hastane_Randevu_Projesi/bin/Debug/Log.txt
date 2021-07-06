@@ -1,0 +1,118 @@
+
+10:01:40 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+10:02:23 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+10:55:53 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:14:44 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:14:52 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:37:58 30 Haziran 2021 Çarşamba
+  Randevu aldı
+------------------------------------
+11:38:04 30 Haziran 2021 Çarşamba
+  Randevu İptal Etti
+------------------------------------
+11:38:24 30 Haziran 2021 Çarşamba
+selin ak Doktor Ekledi
+------------------------------------
+11:38:35 30 Haziran 2021 Çarşamba
+Null  Null  Saatte düzenleme yaptı
+------------------------------------
+12:25:58 2 Temmuz 2021 Cuma
+taha orhan Bilgilerini Güncelledi
+------------------------------------
+12:27:37 2 Temmuz 2021 Cuma
+taha orhan Bilgilerini Güncelledi
+------------------------------------
+15:56:24 2 Temmuz 2021 Cuma
+Taha İbrahim Orhan Kayıt işlemi yaptı
+------------------------------------
+15:56:36 2 Temmuz 2021 Cuma
+  Giriş yaptı
+------------------------------------
+15:58:00 2 Temmuz 2021 Cuma
+  Giriş yaptı
+------------------------------------
+15:58:32 2 Temmuz 2021 Cuma
+  Giriş yaptı
+------------------------------------
+15:59:53 2 Temmuz 2021 Cuma
+  Giriş yaptı
+------------------------------------
+16:06:42 2 Temmuz 2021 Cuma
+  Giriş yaptı
+------------------------------------
+08:19:27 5 Temmuz 2021 Pazartesi
+  Giriş yaptı
+------------------------------------
+08:20:07 5 Temmuz 2021 Pazartesi
+  Giriş yaptı
+------------------------------------
+08:20:53 5 Temmuz 2021 Pazartesi
+  Giriş yaptı
+------------------------------------
+08:21:04 5 Temmuz 2021 Pazartesi
+  Randevu aldı
+------------------------------------
+08:21:22 5 Temmuz 2021 Pazartesi
+  Randevu aldı
+------------------------------------
+08:21:43 5 Temmuz 2021 Pazartesi
+  Randevu aldı
+------------------------------------
+08:28:58 5 Temmuz 2021 Pazartesi
+  Giriş yaptı
+------------------------------------
+08:33:07 5 Temmuz 2021 Pazartesi
+  Randevu İptal Etti
+------------------------------------
+08:33:14 5 Temmuz 2021 Pazartesi
+  Randevu İptal Etti
+------------------------------------
+08:47:00 5 Temmuz 2021 Pazartesi
+  Giriş yaptı
+------------------------------------
+10:45:00 5 Temmuz 2021 Pazartesi
+Aslı Taşpınar Doktor sildi
+------------------------------------
+10:45:03 5 Temmuz 2021 Pazartesi
+Aslı Taşpınar Doktor sildi
+------------------------------------
+10:45:07 5 Temmuz 2021 Pazartesi
+Aslı Taşpınar Doktor sildi
+------------------------------------
+10:45:11 5 Temmuz 2021 Pazartesi
+Aslı Taşpınar Doktor sildi
+------------------------------------
+10:45:49 5 Temmuz 2021 Pazartesi
+Null  Null  Doktor Ekledi
+------------------------------------
+10:46:17 5 Temmuz 2021 Pazartesi
+Null  Null  Branş Ekledi
+------------------------------------
+10:46:24 5 Temmuz 2021 Pazartesi
+Null  Null  Branş Ekledi
+------------------------------------
+10:46:32 5 Temmuz 2021 Pazartesi
+Null  Null  Branş Ekledi
+------------------------------------
+10:46:55 5 Temmuz 2021 Pazartesi
+Null  Null  Doktor Ekledi
+------------------------------------
+10:47:20 5 Temmuz 2021 Pazartesi
+Null  Null  Doktor Ekledi
+------------------------------------
+11:28:06 5 Temmuz 2021 Pazartesi
+Aslı Taşpınar Doktor sildi
+------------------------------------
+11:28:09 5 Temmuz 2021 Pazartesi
+Aslı Taşpınar Doktor sildi
+------------------------------------
